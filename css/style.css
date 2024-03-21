@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+
+    html {
+        display: block;
+    }
+    .js {
+        display: none;
+    }
+
+    .nodejs {
+        display: none;
+    }
+
+    .mongo {
+        display: none;
+    }
+
+
+    .container {
+        width: 100%;
+        background-color: rgb(178, 221, 207);
+        color: rgb(119, 99, 75);
+    }
+    
+    .image-container {
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile4.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    }
+
+    .navigation ul li {
+        border: 1px solid  rgb(119, 99, 75);;
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+
+    .html {
+        display: none;
+    }
+    .js {
+        display: block;
+    }
+
+    .nodejs {
+        display: none;
+    }
+
+    .mongo {
+        display: none;
+    }
+
+
+    .container {
+        width: 100%;
+        background-color: rgb(233, 161, 52);
+        color: rgb(190, 47, 22);
+    }
+    
+    .image-container {
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile3.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    }
+
+    .navigation ul li {
+        border: 1px solid  rgb(212, 27, 27);;
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+}
+
+
+@media (min-width: 1024px){
+    .html {
+        display: none;
+    }
+    .js {
+        display: none;
+    }
+
+    .nodejs {
+        display: block;
+    }
+
+    .mongo {
+        display: none;
+    }
+
+
+    .container {
+        width: 100%;
+        background-color: rgb(204, 121, 197);
+        color: rgb(236, 192, 184);
+    }
+    
+    .image-container {
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile2.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    }
+
+    .navigation ul li {
+        border: 1px solid  rgb(236, 192, 184);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .html {
+        display: none;
+    }
+    .js {
+        display: none;
+    }
+
+    .nodejs {
+        display: none;
+    }
+
+    .mongo {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+        background-color: rgb(233, 180, 228);
+        color: rgb(240, 119, 98);
+    }
+
+    .image-container {
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile1.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto; 
+
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid rgb(240, 119, 98);
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+  }  
+}
+
+
